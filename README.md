@@ -9,17 +9,19 @@ Welcome! I'm Nataly Beltrán Cuenca, a passionate and detail-oriented data analy
 - **Tools used:** Python, Pandas, Matplotlib and Seaborn.
   
 ## 🛠️ Skills & Tools
-| Category              | Tools & Technologies                          |
+| Category             | Tools & Technologies                         |
 |----------------------|-----------------------------------------------|
 | Programming          | Python, SQL                                   |
 | Python Libraries     | Pandas, Matplotlib, Seaborn                   |
 | Databases            | MySQL, PostgreSQL                             |
-| Visualization        | Power BI, Excel, Tableau                      |                                     |
+| Visualization        | Power BI, Excel, Tableau                      |                                     
 | Documentation        | English                                       |
 
 ## 📬 Contact
 -**E-mail:** nataly-beltran@hotmail.com.
+
 -**Linkedin:** www.linkedin.com/in/nataly-beltran-cuenca-7bb38a303.
+
 -**GitHub:** bcnataly.
 
 
