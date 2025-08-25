@@ -7,8 +7,8 @@ Welcome! I'm Nataly Beltrán Cuenca, a passionate and detail-oriented data analy
 ### 📊 1. Exploratory Data Analysis with Python
 - **Description:** This project focuses on cleaning, exploring, transforming, and visualizing a dataset. It applies data manipulation techniques with Pandas and generates customized visualizations with Matplotlib and Seaborn to uncover patterns and insights.
 - **Tools used:** Python, Pandas, Matplotlib and Seaborn.
+  
 ## 🛠️ Skills & Tools
-
 | Category              | Tools & Technologies                          |
 |----------------------|-----------------------------------------------|
 | Programming          | Python, SQL                                   |
@@ -16,3 +16,10 @@ Welcome! I'm Nataly Beltrán Cuenca, a passionate and detail-oriented data analy
 | Databases            | MySQL, PostgreSQL                             |
 | Visualization        | Power BI, Excel, Tableau                      |                                     |
 | Documentation        | English                                       |
+
+## 📬 Contact
+-**E-mail:** nataly-beltran@hotmail.com
+-**Linkedin:** www.linkedin.com/in/nataly-beltran-cuenca-7bb38a303
+-**GitHub:** bcnataly
+
+
