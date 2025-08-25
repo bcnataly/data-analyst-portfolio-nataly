@@ -18,10 +18,8 @@ Welcome! I'm Nataly Beltrán Cuenca, a passionate and detail-oriented data analy
 | Documentation        | English                                       |
 
 ## 📬 Contact
--**E-mail:** nataly-beltran@hotmail.com.
-
--**Linkedin:** www.linkedin.com/in/nataly-beltran-cuenca-7bb38a303.
-
--**GitHub:** bcnataly.
+-**E-mail:** nataly-beltran@hotmail.com
+-**Linkedin:** www.linkedin.com/in/nataly-beltran-cuenca-7bb38a303
+-**GitHub:** bcnataly
 
 
