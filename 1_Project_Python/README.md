@@ -13,7 +13,7 @@ What is the profile of customers with the greatest potential for conversion?
 - Load the dataset.
 
 ### 📊 Initial Exploration:
-- Review shape, non-null values, and data types.
+- Review shape, non-null values and data types.
 
 ### 🧹 Data Cleaning:
 - Remove missing values.
@@ -28,7 +28,7 @@ What is the profile of customers with the greatest potential for conversion?
     * Explore the data type of each variable.
     * Remove any columns that don't contribute to answering the question.
     * Use bar charts to explore categorical variables. 
-    * Analyze the numeric variables by obtaining basic statistical values and generating a histogram for each.
+    * Summarize numeric variables with statistics and histograms.
 - **Univariate Analysis:**
     - Convert the categorical column "y" into a numeric variable (y_bin).
     - Visualize distributions with box plots.
@@ -37,7 +37,7 @@ What is the profile of customers with the greatest potential for conversion?
     - Conclusions of the Univariate Analysis.
 - **Bivariate Analysis:**
     - Define a function that displays the conversion rate of a combination of two categorical variables.
-  	- Visualize and analize the conversion rates for combination of the two categorical variables.
+    - Visualize and analize the conversion rates for combination of the two categorical variables.
     - Conclusions of the Bivariate Analysis.
       
 ## 🧠 Key Insights 
@@ -51,6 +51,3 @@ What is the profile of customers with the greatest potential for conversion?
     
 ### 🔮 Next Steps
  - Create a machine learning model that considers combinations of multiple variables and ranks those with the greatest potential for conversion. This allows us to define the customer segment willing to acquire the bank's new product differently.
-
-
-
