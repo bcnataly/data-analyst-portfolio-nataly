@@ -19,7 +19,7 @@ Explore the general characteristics of the data frame, including the number of r
 - **Missing Value Management::**
   * Remove all rows with missing values from the original dataframe.
 - **Unnecessary columns:**
-  * Remove any categorical columns that with only one level.
+  * Remove any categorical columns with only one level.
   * Discard any numerical columns containing only one unique value.
 - **Duplicate rows:**
 	* Drop the duplicate rows.
@@ -37,7 +37,18 @@ Explore the general characteristics of the data frame, including the number of r
     * Analyze the numeric variables (age and balance) by obtaining basic statistical values and generating a histogram for each.
     
 - **Univariate Analysis:**
-    
+    * Convert the categorical column "y" into a numeric variable (y_bin) to simplify the calculation of the conversion rate.
+    * Draw two box plots showing the distribution of the numeric variables (age and balance) split by 'y_bin'.
+    * Define a reusable function (graph_conversion_rates) that displays the conversion rates for each variable in the data frame based on the predictive variable.
+    * Analyze the relationship between each numerical variable (age and balance) and the predictive variable (y_bin).
+    * Analyze the relationship between the categorical variables (age_groups, balance_groups, job, marital, education, default, housing, loan, poutcome) and the predictive variable (y_bin).
+    * Conclusions of the Univariate Analysis.
+
 - **Bivariate Analysis:**
+    * Define a function that displays the conversion rate of a combination of two categorical variables.
+    * Graph the conversion rate for each combination of the two categorical variables (age_groups, balance_groups, job, marital, education, default, housing, loan, poutcome) and the predictive variable (y_bin).
+    * Conclusions of the Univariate Analysis.
+      
+##  Step to follow
 
 
