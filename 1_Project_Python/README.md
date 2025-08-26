@@ -49,5 +49,5 @@ What is the profile of customers with the greatest potential for conversion?
     - **age** = Between 18 and 25 years old, preferably.
     - **default** = no, "loan" = no , and "housing" = no.
     
-### 🔮 Next Steps
+## 🔮 Next Steps
  - Create a machine learning model that considers combinations of multiple variables and ranks those with the greatest potential for conversion. This allows us to define the customer segment willing to acquire the bank's new product differently.
