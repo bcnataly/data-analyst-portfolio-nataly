@@ -40,8 +40,8 @@ What is the profile of customers with the greatest potential for conversion?
     - Conclusions of the Univariate Analysis.
       
 ## 🧠 Key Insights 
-  -The variables "poutcome", "job", "balance_groups", and "age_groups" have the greatest impact on the conversion rate.
-  -Based on this analysis, the ideal customer profile for acquiring the bank's new product is as follows:
+  - The variables "poutcome", "job", "balance_groups", and "age_groups" have the greatest impact on the conversion rate.
+  - Based on this analysis, the ideal customer profile for acquiring the bank's new product is as follows:
    - "poutcome"= success. The person must have been contacted by the bank previously and must have purchased the product in the last campaign.
    - "job" = Type of Job (Top 3): Unemployed, student and retired.
    - "balance" = Between 16000 euros and 20000 euros, preferably.
