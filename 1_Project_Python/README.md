@@ -1,4 +1,5 @@
 # Exploratory Data Analysis with Python
+
 ## Business Problem
 A banking institution hired a marketing firm to contact potential customers and gauge their interest in purchasing certificates of deposit (CDs), which are a type of fixed-term investment. 
 
@@ -27,11 +28,11 @@ Explore the general characteristics of the data frame, including the number of r
 - **Typographical errors:** 
   * Detect and correct typographical errors in categorical variable values.
     
-  ### Exploratory Data Analysis
-  - **Exploratory Analysis of Individual Variables:**
+### Exploratory Data Analysis
+- **Exploratory Analysis of Individual Variables:**
     
-  - **Univariate Analysis:**
+- **Univariate Analysis:**
     
-  - **Bivariate Analysis:**
+- **Bivariate Analysis:**
 
 
