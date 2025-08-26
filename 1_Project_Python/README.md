@@ -1,4 +1,5 @@
 # Customer Conversion Analysis – EDA with Python
+This project focuses on cleaning, exploring, transforming, and visualizing data in order to profile potential customers of a bank who are interested in purchasing a product.
 
 ## 📌 Project Overview
 A banking institution hired a marketing firm to contact potential customers and gauge their interest in purchasing certificates of deposit (CDs), which are a type of fixed-term investment. 
@@ -37,19 +38,19 @@ What is the profile of customers with the greatest potential for conversion?
 - **Bivariate Analysis:**
     - Define a function that displays the conversion rate of a combination of two categorical variables.
   	- Visualize and analize the conversion rates for combination of the two categorical variables.
-    - Conclusions of the Univariate Analysis.
+    - Conclusions of the Bivariate Analysis.
       
 ## 🧠 Key Insights 
-  - The variables "poutcome", "job", "balance_groups", and "age_groups" have the greatest impact on the conversion rate.
-  - Based on this analysis, the ideal customer profile for acquiring the bank's new product is as follows:
-    - "poutcome"= success. The person must have been contacted by the bank previously and must have purchased the product in the last campaign.
-    - "job" = Type of Job (Top 3): Unemployed, student and retired.
-    - "balance" = Between 16000 euros and 20000 euros, preferably.
-    - "age" = Between 18 and 25 years old, preferably.
-    - "default" = no (if the person has a loan and is meeting their bank obligations), "loan" = no (if the person doesn't have a loan), and "housing" = no (if the person doesn't have a mortgage loan).
+  - The variables poutcome, job, balance_groups and age_groups have the greatest impact on the conversion rate.
+  - The ideal customer profile for acquiring the bank's new product is as follows:
+    - **poutcome**= success. 
+    - **Type of job** = Unemployed, student and retired.
+    - **balance** = Between 16000 euros and 20000 euros, preferably.
+    - **age** = Between 18 and 25 years old, preferably.
+    - **default** = no, "loan" = no , and "housing" = no.
     
 ### 🔮 Next Steps
- - Create a machine learning model that considers combinations of multiple variables and ranks those with the greatest potential for conversion. This enables us to define the customer segment that is willing to acquire the bank's new product in a different way.
+ - Create a machine learning model that considers combinations of multiple variables and ranks those with the greatest potential for conversion. This allows us to define the customer segment willing to acquire the bank's new product differently.
 
 
 
