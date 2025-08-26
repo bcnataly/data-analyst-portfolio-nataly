@@ -16,11 +16,11 @@ Import the necessary Python libraries to develop this project and load the datas
 Explore the general characteristics of the data frame, including the number of rows and columns, the number of non-null values in each column, and the data type of each column.
 
 ### Clean the dataframe:
-- **Management of missing values:**
+- **Missing Value Management::**
   * Remove all rows with missing values from the original dataframe.
 - **Unnecessary columns:**
-  * Remove any categorical columns that contain only one level.
-  * Discard any numerical columns that contain only one unique value.
+  * Remove any categorical columns that with only one level.
+  * Discard any numerical columns containing only one unique value.
 - **Duplicate rows:**
 	* Drop the duplicate rows.
 - **Outlier detection:** 
@@ -30,6 +30,11 @@ Explore the general characteristics of the data frame, including the number of r
     
 ### Exploratory Data Analysis
 - **Exploratory Analysis of Individual Variables:**
+    * Analyze each variable individually.
+    * Explore the data type of each variable.
+    * Define and eliminate any variables that are not needed for the analysis: ('contact', 'month', 'day', 'duration', 'campaign', 'pdays', 'previous').
+    * Use bar charts to explore categorical variables: ('job','marital','education','default','housing','loan','contact','month','poutcome','y')
+    * Analyze the numeric variables (age and balance) by obtaining basic statistical values and generating a histogram for each.
     
 - **Univariate Analysis:**
     
