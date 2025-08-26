@@ -15,7 +15,7 @@ Welcome! I'm Nataly Beltrán Cuenca, a passionate and detail-oriented data analy
 | Python Libraries     | Pandas, Matplotlib, Seaborn                   |
 | Databases            | MySQL, PostgreSQL                             |
 | Visualization        | Power BI, Excel, Tableau                      | 
-| Development Platform | Google Colabor                                |
+| Development Platform | Google Colaboratory                           |
 | Documentation        | English                                       |
 
 
