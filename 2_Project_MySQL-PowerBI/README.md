@@ -1,14 +1,17 @@
 
 # Employee Metrics Analysis – MySQL & Power BI
+
 This project focuses on exploring, cleaning, transforming and visualizing employee data to uncover key workforce insights for a technology company.
 
 ## 📌 Project Overview
+
 The Techniserv Group, a U.S. technology company, commissioned a workforce analysis to reveal important demographic and performance metrics. The goal of this project is to identify the factors that define the Techniserv Group workforce and create a visual report to communicate this information to senior HR management and other stakeholders.
 The questions that guided this analysis were posed by HR stakeholders and executive management, who aimed to identify the organization's strengths, disparities, and opportunities.
 The project uses MySQL for data preparation and querying, as well as Power BI for executive-level visualization. 
 
 ## 🔄 Project Workflow
-### 📥🔍 Data Preparation and Exploration
+
+### 🔍 Data Preparation and Exploration
 - Create the database.
 - Import the table from a .csv file (employees.csv).
 - Review the number of rows and columns.
@@ -40,9 +43,11 @@ The project uses MySQL for data preparation and querying, as well as Power BI fo
 -	Average annual salary by gender.
 
 ### 💾 Save Cleaned Data
+
 The final cleaned table is saved (clean_employees.csv) and used as the data source for visualization in Power BI.
 
 ### 📊 Dashboard Creation in Power BI
+
 The dashboard uses a variety of visual elements to present key insights about the Techniserv Group workforce.
 - Horizontal stacked bar chart: Displays employee distribution by department, allowing for comparison across functional areas.
 - Pie charts: Show gender distribution and work modality proportions, offering a quick overview of demographic balance.
@@ -51,23 +56,25 @@ The dashboard uses a variety of visual elements to present key insights about th
 - Vertical bar chart: Shows the three departments with the highest average salaries, which allows for the identification of potential strategic areas.
 
 ### 🧠 Key Insights
+
 - **Demographics:**
-- The Techniserv Group has a total of 1.000 employees.
-- The average employee age is 39.
-- 68.3% of employees are male and 31.7% are female. Interestingly, women have a slightly higher average salary than men.
+    - The Techniserv Group has a total of 1.000 employees.
+    - The average employee age is 39.
+    - 68.3% of employees are male and 31.7% are female. Interestingly, women have a slightly higher average salary than men.
   
 - **Workforce Distribution:**
-- The company has seven departments, and 73% of employees work in engineering, support, and services.
-- The most common work modality is hybrid (45.7%), followed by on-site (28%) and remote (26.3%).
+    - The company has seven departments, and 73% of employees work in engineering, support, and services.
+    - The most common work modality is hybrid (45.7%), followed by on-site (28%) and remote (26.3%).
   
 - **Compensation:**
-- The top three departments by salary are engineering, services, and support.
-- The company's average annual salary is $54,471 USD. Top earners make over $80,000 USD.
+    - The top three departments by salary are engineering, services, and support.
+    - The company's average annual salary is $54,471 USD. Top earners make over $80,000 USD.
 
 - **Strategic Interpretation:**
 These insights reveal a workforce concentrated in technical and client-facing roles with hybrid work as the dominant modality. The compensation data indicates significant investment in key departments and identifies areas for additional equity analysis.
 
 ### 🚀 Next Steps:
+
 To further enhance the value of this analysis and support strategic decision-making, the following steps are recommended:
 - Expand the dataset. Incorporate additional variables, such as tenure, performance ratings, and educational background, to enrich the analysis and reveal deeper workforce patterns.
 - Conduct time-based analysis. Integrate historical data to identify trends in hiring, compensation, and shifts in work modality over time.
