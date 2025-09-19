@@ -1,7 +1,7 @@
 
 # Employee Metrics Analysis – MySQL & Power BI
 
-This project focuses on exploring, cleaning, transforming and visualizing employee data to uncover key workforce insights for a technology company.
+This project focuses on exploring, cleaning, transforming, visualizing and analyzing employee data to uncover key workforce insights for a technology company.
 
 ## 📌 Project Overview
 
@@ -57,9 +57,11 @@ The dashboard uses a variety of visual elements to present key insights about th
 
 ### 🧠 Key Insights
 
+The figures are in U.S. format.
+
 - **Demographics:**
-    - The Techniserv Group has a total of 1.000 employees.
-    - The average employee age is 39.
+    - The Techniserv Group has a total of 1,000 employees.
+    - The average age of employees is 39.
     - 68.3% of employees are male and 31.7% are female. Interestingly, women have a slightly higher average salary than men.
   
 - **Workforce Distribution:**
@@ -67,11 +69,11 @@ The dashboard uses a variety of visual elements to present key insights about th
     - The most common work modality is hybrid (45.7%), followed by on-site (28%) and remote (26.3%).
   
 - **Compensation:**
-    - The top three departments by salary are engineering, services, and support.
+    - The top three highest-paying departments are engineering, services, and support.
     - The company's average annual salary is $54,471 USD. Top earners make over $80,000 USD.
 
 - **Strategic Interpretation:**
-These insights reveal a workforce concentrated in technical and client-facing roles with hybrid work as the dominant modality. The compensation data indicates significant investment in key departments and identifies areas for additional equity analysis.
+These insights reveal a workforce concentrated in technical and client-facing roles with hybrid work as the dominant modality. The compensation data indicates a significant investment in key departments and identifies areas for additional equity analysis.
 
 ### 🚀 Next Steps:
 
