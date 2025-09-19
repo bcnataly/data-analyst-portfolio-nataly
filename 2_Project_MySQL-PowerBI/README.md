@@ -7,7 +7,26 @@ This project focuses on exploring, cleaning, transforming, visualizing and analy
 
 The Techniserv Group, a U.S. technology company, commissioned a workforce analysis to reveal important demographic and performance metrics. The goal of this project is to identify the factors that define the Techniserv Group workforce and create a visual report to communicate this information to senior HR management and other stakeholders.
 The questions that guided this analysis were posed by HR stakeholders and executive management, who aimed to identify the organization's strengths, disparities, and opportunities.
-The project uses MySQL for data preparation and querying, as well as Power BI for executive-level visualization. 
+The project uses MySQL for data preparation and querying, as well as Power BI for executive-level visualization.
+
+## 📁 Included Files
+
+| File Name               | Description                                                 |
+|------------------------|--------------------------------------------------------------|
+| `employees.csv` | Raw dataset containing unprocessed employee data             |
+| `clean_employees.csv`    | Cleaned dataset after applying SQL transformations           |
+| `script.sql`           | SQL script used for data cleaning, transformation, and queries |
+| `dashboard.pbix`       | Power BI dashboard visualizing key employee metrics          |
+| `dashboard.pdf`        | Exported version of the dashboard for easy sharing/viewing   |
+
+
+## 🛠️ How to Run This Project
+
+- 1. Load the employees.csv file into the script.sql file as a table named employees.
+- 2. Execute the script.sql script to explore, clean, transform and query the data.
+- 3. Open the dashboard.pbix file in Power BI Desktop to explore the interactive dashboard.
+- 4. Alternatively, view the static version in dashboard.pdf.
+
 
 ## 🔄 Project Workflow
 
@@ -70,7 +89,7 @@ The figures are in U.S. format.
   
 - **Compensation:**
     - The top three highest-paying departments are engineering, services, and support.
-    - The company's average annual salary is $54,471 USD. Top earners make over $80,000 USD.
+    - The company's average annual salary is $54,471. Top earners make over $80,000.
 
 - **Strategic Interpretation:**
 These insights reveal a workforce concentrated in technical and client-facing roles with hybrid work as the dominant modality. The compensation data indicates a significant investment in key departments and identifies areas for additional equity analysis.
