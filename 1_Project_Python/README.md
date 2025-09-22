@@ -1,4 +1,4 @@
-# Customer Conversion Analysis – EDA with Python
+# Customer Conversion Analysis –  Exploratory Data Analysis with Python
 This project focuses on cleaning, exploring, transforming, and visualizing data in order to profile potential customers of a bank who are interested in purchasing a product.
 
 ## 📌 Project Overview
