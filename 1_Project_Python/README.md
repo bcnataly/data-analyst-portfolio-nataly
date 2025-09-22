@@ -6,16 +6,31 @@ A banking institution hired a marketing firm to contact potential customers and 
 The objective of this exploratory data analysis is to answer the following question: 
 What is the profile of customers with the greatest potential for conversion? 
 
-## 🔄 Project Workflow
+## 🛠️ Tools & Technologies
 
-### 📥 Load the Dataset:
+- **Google Colaboratory** – A cloud-based environment for running Python code without local setup.
+- **Python 3.9+** – Core programming language for data analysis.
+- **Pandas** – Data manipulation and cleaning Python library.
+- **Matplotlib and Seaborn** – Data visualization Python libraries.
+- **GitHub** – Version control and public repository hosting.
+
+## 📁 Included Files
+
+| File Name               | Description                                                  |
+|------------------------|---------------------------------------------------------------|
+| `dataset.csv`        | Raw dataset containing information on potential customers for the bank. |
+| `notebook.ipynb`  | A Jupyter notebook containing the full exploratory data analysis (EDA) workflow.|
+
+## 🧭 Project Workflow
+
+### 📥 Load the Dataset
 - Import necessary Python libraries.
-- Load the dataset.
+- Load the dataset.csv file.
 
-### 📊 Initial Exploration:
+### 📊 Initial Exploration
 - Review shape, non-null values and data types.
 
-### 🧹 Data Cleaning:
+### 🧹 Data Cleaning
 - Remove missing values.
 - Drop columns with only one level.
 - Drop columns with only one unique value.
@@ -23,7 +38,7 @@ What is the profile of customers with the greatest potential for conversion?
 - Detect and remove outliers.
 - Correct typographical errors in categorical variables.
 
-### 🔍 Exploratory Data Analysis:
+### 🔍 Exploratory Data Analysis
 - **Exploratory Analysis of Individual Variables:**
     * Explore the data type of each variable.
     * Remove any columns that don't contribute to answering the question.
@@ -51,3 +66,9 @@ What is the profile of customers with the greatest potential for conversion?
     
 ## 🔮 Next Steps
  - Create a machine learning model that considers combinations of multiple variables and ranks those with the greatest potential for conversion. This allows us to define the customer segment willing to acquire the bank's new product differently.
+
+## 🚀 Execution Guide 
+
+You can run this notebook directly in your browser:
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bcnataly/data-analyst-portfolio-nataly/blob/main/1_Project_Python/eda_customer_conversion.ipynb)
+
