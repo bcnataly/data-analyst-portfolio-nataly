@@ -9,24 +9,21 @@ The Techniserv Group, a U.S. technology company, commissioned a workforce analys
 The questions that guided this analysis were posed by HR stakeholders and executive management, who aimed to identify the organization's strengths, disparities, and opportunities.
 The project uses MySQL for data preparation and querying, as well as Power BI for executive-level visualization.
 
+## 🛠️ Tools & Technologies
+
+- **MySQL Workbench** – Data exploration, cleaning, and transformation.  
+- **Power BI Desktop** – Dashboard design and executive-level visualization.  
+- **GitHub** – Version control and public repository hosting.  
+
 ## 📁 Included Files
 
-| File Name               | Description                                                 |
-|------------------------|--------------------------------------------------------------|
-| `employees.csv` | Raw dataset containing unprocessed employee data             |
-| `clean_employees.csv`    | Cleaned dataset after applying SQL transformations           |
-| `script.sql`           | SQL script used for data cleaning, transformation, and queries |
-| `dashboard.pbix`       | Power BI dashboard visualizing key employee metrics          |
-| `dashboard.pdf`        | Exported version of the dashboard for easy sharing/viewing   |
-
-
-## 🛠️ How to Run This Project
-
-- 1. Load the employees.csv file into the script.sql file as a table named employees.
-- 2. Execute the script.sql script to explore, clean, transform and query the data.
-- 3. Open the dashboard.pbix file in Power BI Desktop to explore the interactive dashboard.
-- 4. Alternatively, view the static version in dashboard.pdf.
-
+| File Name               | Description                                                  |
+|------------------------|---------------------------------------------------------------|
+| `employees.csv`        | Raw dataset containing unprocessed employee data              |
+| `clean_employees.csv`  | Cleaned dataset after applying SQL transformations            |
+| `script.sql`           | SQL script used for data exploring, cleaning, transformation, and queries|
+| `dashboard.pbix`       | Power BI dashboard visualizing key employee metrics           |
+| `dashboard.pdf`        | Exported version of the dashboard   |
 
 ## 🔄 Project Workflow
 
@@ -58,7 +55,7 @@ The project uses MySQL for data preparation and querying, as well as Power BI fo
 -	Average annual salary per employee.
 -	Average employee age.
 -	Distribution by department, gender, and work modality.
-- Highest-paid employees.
+-   Highest-paid employees.
 -	Average annual salary by gender.
 
 ### 💾 Save Cleaned Data
@@ -74,7 +71,7 @@ The dashboard uses a variety of visual elements to present key insights about th
 - Horizontal bar chart: Presents average salary by gender, highlighting potential disparities.
 - Vertical bar chart: Shows the three departments with the highest average salaries, which allows for the identification of potential strategic areas.
 
-### 🧠 Key Insights
+## 🧠 Key Insights
 
 The figures are in U.S. format.
 
@@ -94,8 +91,15 @@ The figures are in U.S. format.
 - **Strategic Interpretation:**
 These insights reveal a workforce concentrated in technical and client-facing roles with hybrid work as the dominant modality. The compensation data indicates a significant investment in key departments and identifies areas for additional equity analysis.
 
-### 🚀 Next Steps:
+## 🚀 Next Steps
 
 To further enhance the value of this analysis and support strategic decision-making, the following steps are recommended:
 - Expand the dataset. Incorporate additional variables, such as tenure, performance ratings, and educational background, to enrich the analysis and reveal deeper workforce patterns.
 - Conduct time-based analysis. Integrate historical data to identify trends in hiring, compensation, and shifts in work modality over time.
+
+## 🧪 Execution Guide Project
+
+- Open the script.sql file in MySQL Workbench.
+- Load the employees.csv file into the script, then execute it to explore, clean, transform, and query the data.
+- Open the dashboard.pbix file in Power BI Desktop to view the dashboard.
+- Alternatively, view the static version in dashboard.pdf.
