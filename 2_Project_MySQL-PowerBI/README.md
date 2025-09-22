@@ -19,13 +19,13 @@ The project uses MySQL for data preparation and querying, as well as Power BI fo
 
 | File Name               | Description                                                  |
 |------------------------|---------------------------------------------------------------|
-| `employees.csv`        | Raw dataset containing unprocessed employee data              |
-| `clean_employees.csv`  | Cleaned dataset after applying SQL transformations            |
+| `employees.csv`        | Raw dataset containing employee data              |
 | `script.sql`           | SQL script used for data exploring, cleaning, transformation, and queries|
+| `clean_employees.csv`  | Cleaned dataset after applying SQL transformations            |
 | `dashboard.pbix`       | Power BI dashboard visualizing key employee metrics           |
-| `dashboard.pdf`        | Exported version of the dashboard   |
+| `dashboard.pdf`        | Exported version of the dashboard                             |
 
-## 🔄 Project Workflow
+## 🧭 Project Workflow
 
 ### 🔍 Data Preparation and Exploration
 - Create the database.
@@ -91,13 +91,13 @@ The figures are in U.S. format.
 - **Strategic Interpretation:**
 These insights reveal a workforce concentrated in technical and client-facing roles with hybrid work as the dominant modality. The compensation data indicates a significant investment in key departments and identifies areas for additional equity analysis.
 
-## 🚀 Next Steps
+## 🔮 Next Steps
 
 To further enhance the value of this analysis and support strategic decision-making, the following steps are recommended:
 - Expand the dataset. Incorporate additional variables, such as tenure, performance ratings, and educational background, to enrich the analysis and reveal deeper workforce patterns.
 - Conduct time-based analysis. Integrate historical data to identify trends in hiring, compensation, and shifts in work modality over time.
 
-## 🧪 Execution Guide Project
+## 🚀 Execution Guide 
 
 - Open the script.sql file in MySQL Workbench.
 - Load the employees.csv file into the script, then execute it to explore, clean, transform, and query the data.
