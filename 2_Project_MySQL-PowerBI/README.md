@@ -1,13 +1,10 @@
 
-# Employee Metrics Analysis – MySQL & Power BI
-
-This project focuses on exploring, cleaning, transforming, visualizing and analyzing employee data to uncover key workforce insights for a technology company.
+# Human Resources Data Analysis – MySQL and Power BI
 
 ## 📌 Project Overview
 
-The Techniserv Group, a U.S. technology company, commissioned a workforce analysis to reveal important demographic and performance metrics. The goal of this project is to identify the factors that define the Techniserv Group workforce and create a visual report to communicate this information to senior HR management and other stakeholders.
-The questions that guided this analysis were posed by HR stakeholders and executive management, who aimed to identify the organization's strengths, disparities, and opportunities.
-The project uses MySQL for data preparation and querying, as well as Power BI for executive-level visualization.
+The Techniserv Group, a U.S. technology company, commissioned a human resources data analysis focusing on its employees. The project aimed to provide valuable insights into the demographics, distribution, and compensation of the workforce and create a visual report to communicate this information to senior HR management and other stakeholders.
+The project utilized MySQL for data preparation, exploration, cleaning, transformation, and analysis, and Power BI for executive-level visualization.
 
 ## 🛠️ Tools & Technologies
 
@@ -27,12 +24,27 @@ The project uses MySQL for data preparation and querying, as well as Power BI fo
 
 ## 🧭 Project Workflow
 
+The **script.sql** file contains the process of data preparation and exploration, cleaning, transformation, and analysis.
+
 ### 🔍 Data Preparation and Exploration
 - Create the database.
 - Import the table from a .csv file (employees.csv).
 - Review the number of rows and columns.
 - Check data types.
 - Display the first few rows of the table.
+- Understand the information contained in each column of the dataset:
+  
+| Column Name         | Description |
+|---------------------|-------------|
+| `id_employee`       | Unique identifier for each employee |
+| `first_name`        | Employee's first name |
+| `last_name`         | Employee's last name |
+| `gender`            | Employee's gender (`hombre`, `mujer`) |
+| `birth_date`        | Employee's date of birth |
+| `departmento`       | Department where the employee works (`Accounting`, `Engineering`, `Human Resources`, `Marketing`, `Sales`, `Services`, `Support`) |
+| `monthly_salary_usd`| Employee's monthly salary in USD |
+| `work_modality`     | Work modality (`0`, `1`, `2`) |
+| `country`           | Country where the employee works |
 
 ### 🧹 Data Cleaning
 -	Identify missing values.
@@ -50,7 +62,10 @@ The project uses MySQL for data preparation and querying, as well as Power BI fo
 -	Assign appropriate data types to the new columns.
 -	Remove columns that are not needed for the analysis.
 
-### 📈 Workforce Metrics Overview
+### 📈 Analysis
+
+The dataset was analyzed using SQL queries to extract insights. 
+
 -	Total number of employees.
 -	Average annual salary per employee.
 -	Average employee age.
@@ -60,16 +75,19 @@ The project uses MySQL for data preparation and querying, as well as Power BI fo
 
 ### 💾 Save Cleaned Data
 
-The final cleaned table is saved (clean_employees.csv) and used as the data source for visualization in Power BI.
+The final cleaned table is saved in the **clean_employees.csv** file and used as the data source for visualization in Power BI.
 
-### 📊 Dashboard Creation in Power BI
+### 📊 Data Visualization
 
-The dashboard uses a variety of visual elements to present key insights about the Techniserv Group workforce.
-- Horizontal stacked bar chart: Displays employee distribution by department, allowing for comparison across functional areas.
-- Pie charts: Show gender distribution and work modality proportions, offering a quick overview of demographic balance.
-- Table: Lists the six highest-paid employees by gender, department, and work modality to support compensation analysis.
-- Horizontal bar chart: Presents average salary by gender, highlighting potential disparities.
-- Vertical bar chart: Shows the three departments with the highest average salaries, which allows for the identification of potential strategic areas.
+The dashboard uses visual elements to present key insights about the Techniserv Group workforce. Data visualization is available in both the **dashboard.pbix** Power BI file and the **dashboard.pdf** file.
+
+| Chart Type               | Title                                                                 | Description                                              |
+|--------------------------|----------------------------------------------------------------------|-----------------------------------------------------------|
+| Card             | Employees<br>Avg. Annual Salary<br>Avg. Age   | Displays the number of employees, average annual salary in USD, and average employee age |
+| Horizontal Stacked Bar| Employees by Department             | Displays employee distribution by department  |
+| Pie Chart             | Employees by Gender<br>Employees by Work Modality | Displays gender distribution<br>Displays work modality proportions             |
+| Table          | Top 6 Employees Annual Salary  | Lists the six highest-paid employees, including information such as gender, department, and work modality |
+| Vertical Bar Chart | Avg. Annual Salary by Gender<br>Top 3 Avg. Annual Salary by Department| Presents average salary by gender<br>Shows the three departments with the highest average salaries |
 
 ## 🧠 Key Insights
 
