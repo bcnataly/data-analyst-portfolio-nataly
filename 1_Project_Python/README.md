@@ -34,7 +34,7 @@ What is the profile of customers with the greatest potential for conversion?
 | Column Name | Description |
 |-------------|-------------|
 | `age`       | Age of the client |
-| `job`       | Type of work (e.g., `management`, `technician`, `entrepreneur`, `blue-collar`, `unknown`, `retired`, `admin.`, `services`, `self-employed`, `unemployed`, `housemaid`, `student`, `administrative`) |
+| `job`       | Type of work (`management`, `technician`, `entrepreneur`, `blue-collar`, `unknown`, `retired`, `admin.`, `services`, `self-employed`, `unemployed`, `housemaid`, `student`, `administrative`) |
 | `marital`   | Marital status (`married`, `single`, `divorced`) |
 | `education` | Educational level (`tertiary`, `secondary`, `unknown`, `primary`) |
 | `default`   | Whether the client defaulted on previous credit obligations (`yes`, `no`) |
