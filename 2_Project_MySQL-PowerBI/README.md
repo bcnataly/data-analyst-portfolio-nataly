@@ -83,11 +83,11 @@ The dashboard uses visual elements to present key insights about the Techniserv 
 
 | Chart Type               | Title                                                                 | Description                                              |
 |--------------------------|----------------------------------------------------------------------|-----------------------------------------------------------|
-| Card             | Employees<br>Avg. Annual Salary<br>Avg. Age   | Displays the number of employees, average annual salary in USD, and average employee age |
+| Card             | Employees<br>Avg. Annual Salary<br>Avg. Age   | Displays the number of employees<br>Displays the average annual salary in USD<br> Displays the average employee age |
 | Horizontal Stacked Bar| Employees by Department             | Displays employee distribution by department  |
 | Pie Chart             | Employees by Gender<br>Employees by Work Modality | Displays gender distribution<br>Displays work modality proportions             |
 | Table          | Top 6 Employees Annual Salary  | Lists the six highest-paid employees, including information such as gender, department, and work modality |
-| Vertical Bar Chart | Avg. Annual Salary by Gender<br>Top 3 Avg. Annual Salary by Department| Presents average salary by gender<br>Shows the three departments with the highest average salaries |
+| Vertical Bar Chart | Avg. Annual Salary by Gender<br>Top 3 Avg. Annual Salary by Department| Displays average salary by gender<br> Displays the three departments with the highest average salaries |
 
 ## 🧠 Key Insights
 
