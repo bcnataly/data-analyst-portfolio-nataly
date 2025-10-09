@@ -15,7 +15,7 @@ Microsoft Excel was used for data exploring, cleaning, transformation, and visua
 
 | File Name       | Worksheet                                                       |Description                                                  
 |-----------------|-----------------------------------------------------------------|-----------------------------------------------------|
-| Project.xlsx    | Raw_data<br>Clean_data<br>Analysis<br>Pivot_tables<br>Dashboard | EuroTech Essentials raw dataset<br>Cleaned and transformed dataset<br>Analysis performed using Excel formulas and conditional formatting<br>Pivot tables used to generate the dashboard's dynamic charts<br>Financial Excel dashboard focuses on profits|
+| Project.xlsx    | 01_Raw_data<br>02_Clean_data<br>03_Analysis<br>04_Pivot_tables<br>05_Dashboard | EuroTech Essentials raw dataset<br>Cleaned and transformed dataset<br>Analysis performed using Excel formulas and conditional formatting<br>Pivot tables used to generate the dashboard's dynamic charts<br>Financial Excel dashboard focuses on profits|
 | Dashboard.pdf   | NA                                                               | Exported version of the dashboard                  |
 
 ## 🧭 Project Workflow
@@ -44,7 +44,7 @@ Microsoft Excel was used for data exploring, cleaning, transformation, and visua
 
 ### 🧹 Data Cleaning
 
-The result of the data cleaning process is shown in the Clean_data sheet.
+The result of the data cleaning process is shown in the **02_Clean_data** sheet.
 - Apply the European date format **(DD-MM-YYYY)** to the Date column.
 - Capitalize names in the Commercial Agent using the **PROPER()** function.
 - Split the text in the Commercial Agent column into two columns using the **Data > Text to Columns** option: one for the agent's name and another for their code.
@@ -55,7 +55,7 @@ The result of the data cleaning process is shown in the Clean_data sheet.
 
 ### 🔄 Data Transformation
 
-The result of the data transformation process is shown in the Clean_data sheet.
+The result of the data transformation process is shown in the **02_Clean_data** sheet.
 - Create the Year and Month columns using the Date column and the  **TEXT()** function.
 - Create the Total_Cost column by multiplying Cost per Unit and Quantity using the arithmetic operator **multiplication (*)**.
 - Create the Total_Profit column by subtracting Total_Cost from Total_Revenue using the arithmetic operator **subtract(-)**.
@@ -63,7 +63,7 @@ The result of the data transformation process is shown in the Clean_data sheet.
 ### 📈 Analysis
 
 The dataset was analyzed using two approaches:  
-- **formulas combined with conditional formatting to extract insights**:This information is shown in the **Analysis** sheet.  
+- **formulas combined with conditional formatting to extract insights**: This information is shown in the **03_Analysis** sheet.  
 
 | Metric                                     | Function / Arithmetic Operator | Conditional formatting |                                               
 |--------------------------------------------|----------|----------------------------------------------|
@@ -74,11 +74,11 @@ The dataset was analyzed using two approaches:
 | Profit by Brand and Product                | SUMIFS() | New Rule > Rules created to identify the product generating the highest and lowest profit per brand |
 | Profit by Sales Agent<br>Profit by Brand<br>Profit by Product| SUMIF() | Data Bars > Gradient Fill > Green Data Bars |
 
-- **Pivot tables to extract insights and build the dynamic charts displayed in the dashboard**This information is shown in the **Pivot_tables** sheet.  
+- **Pivot tables to extract insights and build the dynamic charts displayed in the dashboard**This information is shown in the **04_Pivot_tables** sheet.  
 
-### 📊 Dashboard
+### 📊 Data Visualization
 
-The dashboard uses visual elements to present key insights about EuroTech Essentials' profits. This data visualization is displayed on the Dashboard sheet.
+The dashboard uses visual elements to present key insights about EuroTech Essentials' profits. This data visualization is displayed on the **05_Dashboard** sheet.
 
 | Chart Type        | Title                            | Description                                              | Filter(s)            |
 |-------------------|----------------------------------|----------------------------------------------------------|----------------------|
@@ -140,6 +140,7 @@ Replace manual preprocessing with Power Query to streamline updates.
 To explore this project in full:
 - Open the Project.xlsx Excel file.
 - Navigate through each worksheet. Each one represents a stage of the project.
-- The contents of each worksheet are explained in detail in the **Included Files** section.
+
+The contents of each worksheet are explained in detail in the **Included Files** section.
 
 
