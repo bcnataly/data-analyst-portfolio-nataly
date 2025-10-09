@@ -1,6 +1,4 @@
-# Customer Conversion Analysis –  Exploratory Data Analysis with Python
-
-This project focuses on cleaning, exploring, transforming, and visualizing data in order to profile potential customers of a bank who are interested in purchasing a product.
+# Marketing Data Analysis – Python
 
 ## 📌 Project Overview
 
@@ -31,6 +29,27 @@ What is the profile of customers with the greatest potential for conversion?
 
 ### 📊 Initial Exploration
 - Review shape, non-null values and data types.
+- Understand the information contained in each column of the dataset.
+
+| Column Name | Description |
+|-------------|-------------|
+| `age`       | Age of the client |
+| `job`       | Type of work (e.g., `management`, `technician`, `entrepreneur`, `blue-collar`, `unknown`, `retired`, `admin.`, `services`, `self-employed`, `unemployed`, `housemaid`, `student`, `administrative`) |
+| `marital`   | Marital status (`married`, `single`, `divorced`) |
+| `education` | Educational level (`tertiary`, `secondary`, `unknown`, `primary`) |
+| `default`   | Whether the client defaulted on previous credit obligations (`yes`, `no`) |
+| `balance`   | Average annual balance in euros |
+| `housing`   | Does the client have a mortgage? (`yes`, `no`) |
+| `loan`      | Does the client have consumer credit? (`yes`, `no`) |
+| `contact`   | Communication channel used to contact the client (`unknown`, `cellular`, `telephone`, `mobile`) |
+| `day`       | Last day of the month the client was contacted |
+| `month`     | Last month the client was contacted (`jan`, `feb`, `mar`, `apr`, `may`, `jun`, `jul`, `aug`, `sep`, `oct`, `nov`, `dec`) |
+| `duration`  | Duration of the last contact in seconds |
+| `campaign`  | Total number of times the client was contacted during the campaign |
+| `pdays`     | Number of days since the client was last contacted (value `-1` means no previous contact) |
+| `previous`  | Number of contacts made before this campaign |
+| `poutcome`  | Outcome of the previous marketing campaign (`unknown`, `failure`, `other`, `success`) |
+| `y`         | Did the client subscribe to a term deposit? (`yes`, `no`) |
 
 ### 🧹 Data Cleaning
 - Remove missing values.
