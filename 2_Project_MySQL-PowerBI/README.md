@@ -63,31 +63,27 @@ The **script.sql** file contains the process of data preparation and exploration
 -	Remove columns that are not needed for the analysis.
 
 ### 📈 Analysis
-
 The dataset was analyzed using SQL queries to extract insights. 
-
 -	Total number of employees.
 -	Average annual salary per employee.
 -	Average employee age.
 -	Distribution by department, gender, and work modality.
--   Highest-paid employees.
+- Highest-paid employees.
 -	Average annual salary by gender.
 
 ### 💾 Save Cleaned Data
-
 The final cleaned table is saved in the **clean_employees.csv** file and used as the data source for visualization in Power BI.
 
 ### 📊 Data Visualization
-
 The dashboard uses visual elements to present key insights about the Techniserv Group workforce. Data visualization is available in both the **dashboard.pbix** Power BI file and the **dashboard.pdf** file.
 
-| Chart Type               | Title                                                                 | Description                                              |
-|--------------------------|----------------------------------------------------------------------|-----------------------------------------------------------|
-| Card             | Employees<br>Avg. Annual Salary<br>Avg. Age   | Displays the number of employees<br>Displays the average annual salary in USD<br> Displays the average employee age |
-| Horizontal Stacked Bar| Employees by Department             | Displays employee distribution by department  |
-| Pie Chart             | Employees by Gender<br>Employees by Work Modality | Displays gender distribution<br>Displays work modality proportions             |
-| Table          | Top 6 Employees Annual Salary  | Lists the six highest-paid employees, including information such as gender, department, and work modality |
-| Vertical Bar Chart | Avg. Annual Salary by Gender<br>Top 3 Avg. Annual Salary by Department| Displays average salary by gender<br> Displays the three departments with the highest average salaries |
+| Chart Type            | Title                                                               | Description                                               |
+|-----------------------|---------------------------------------------       -----------------|-----------------------------------------------------------|
+| Card                  | Employees<br>Avg. Annual Salary<br>Avg. Age      |Displays the number of employees<br>Displays the average annual salary in USD<br> Displays the average employee age|
+| Horizontal Stacked Bar| Employees by Department                          | Displays employee distribution by department                                 |
+| Pie Chart             | Employees by Gender<br>Employees by Work Modality| Displays gender distribution<br>Displays work modality proportions           |
+| Table                 | Top 6 Employees Annual Salary| Lists the six highest-paid employees, including information such as gender, department, and work modality|
+| Vertical Bar Chart    |Avg. Annual Salary by Gender<br>Top 3 Avg. Annual Salary by Department| Displays average salary by gender<br> Displays the three departments with the highest average salaries|
 
 ## 🧠 Key Insights
 
