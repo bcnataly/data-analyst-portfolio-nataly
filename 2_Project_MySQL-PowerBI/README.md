@@ -78,7 +78,7 @@ The final cleaned table is saved in the **clean_employees.csv** file and used as
 The dashboard uses visual elements to present key insights about the Techniserv Group workforce. Data visualization is available in both the **dashboard.pbix** Power BI file and the **dashboard.pdf** file.
 
 | Chart Type            | Title                                                               | Description                                               |
-|-----------------------|---------------------------------------------       -----------------|-----------------------------------------------------------|
+|-----------------------|---------------------------------------------------------------------|-----------------------------------------------------------|
 | Card                  | Employees<br>Avg. Annual Salary<br>Avg. Age      |Displays the number of employees<br>Displays the average annual salary in USD<br> Displays the average employee age|
 | Horizontal Stacked Bar| Employees by Department                          | Displays employee distribution by department                                 |
 | Pie Chart             | Employees by Gender<br>Employees by Work Modality| Displays gender distribution<br>Displays work modality proportions           |
