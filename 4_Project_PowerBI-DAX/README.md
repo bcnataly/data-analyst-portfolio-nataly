@@ -66,10 +66,19 @@ Repository of calculated measures created using DAX:
 
 ### 📊 Data Visualization
 
-| Chart Type            | Title                                                               | Description                                                                                                    |
-|-----------------------|---------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
+| Chart Type            | Title                                                               | Description                                                     |
+|-----------------------|---------------------------------------------------------------------|-----------------------------------------------------------------|
 | Card                  | Total de Ventas<br>Clientes<br>Cumplimiento<br>Variación Interanual |Displays the total sales amount<br>Displays the number of clients<br>Displays the percentage of sales achievement against the budget<br>Displays the year-over-year variation in sales|
-| Clustered column chart| Comparativa de Ventas por Trimestre                                 |Displays current quarter sales, sales of the same quarter in the previous year, and quarterly growth            |
-| Pie Chart             | Ventas por Segmento                                                 | Displays the proportion of sales by segment                                                                    |
-| Vertical Bar Chart    | Ventas por Sede                                                     | Displays sales by location                                                                                     |
-| Stacked column chart  |Ventas por modelo de vehículo y % de pareto                          | Displays the sales of vehicle models and Pareto %                                                              |
+| Clustered column chart| Comparativa de Ventas por Trimestre|Displays current quarter sales, sales of the same quarter in the previous year, and quarterly growth|
+| Pie Chart             | Ventas por Segmento                              | Displays the proportion of sales by segment                                        |
+| Vertical Bar Chart    | Ventas por Sede                                                     | Displays sales by location                                      |
+| Stacked column chart  |Ventas por modelo de vehículo y % de pareto                          | Displays the sales of vehicle models and Pareto %               |
+
+
+## 🧠 Key Insights 
+
+  - 87% of clients are individuals, while 13% are companies.
+  - The top-performing branch is Santiago de Surco, which leads in total sales volume.
+  - Toyota and Suzuki are the best-selling brands, indicating strong customer preference.
+  - Contrary to the classic Pareto principle, where 20% of products generate 80% of results, 80% of vehicle sales at Peru CarHub come from 71.42% of the available models. This reflects more balanced and diversified demand, suggesting that customers appreciate having a wide range of choices.
+    
