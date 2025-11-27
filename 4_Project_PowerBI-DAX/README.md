@@ -37,11 +37,11 @@ The **analisis_comercial.pbix** file contains the process of data preparation an
 
 | Column Name     | Function / Expression                           | Description                        |
 |-----------------|-------------------------------------------------|------------------------------------|
-| `Año`           | `Año = YEAR(dim_fechas[Date])`                  | Extracts the year from the date    |
-| `Trimestre`     | Trimestre = "T" & QUARTER(dim_fechas[Date])  | Returns the quarter number (1–4)   |
-| `NumeroMes`     | `MONTH(dim_fechas[Date])`                       | Returns the month number (1–12)    |
-| `Mes`           | FORMAT(dim_fechas[Date],"mmmm")              | Displays the full month name       |
-| `NumeroSemana`  | `WEEKNUM(dim_fechas[Date],2)`                   | Returns the week number of the year|
+| `Año`           | Año = YEAR(dim_fechas[Date])                  | Extracts the year from the date    |
+| `Trimestre`     | Trimestre = "T" & QUARTER(dim_fechas[Date])   | Returns the quarter number (1–4)   |
+| `NumeroMes`     | MONTH(dim_fechas[Date])`                      | Returns the month number (1–12)    |
+| `Mes`           | FORMAT(dim_fechas[Date],"mmmm")               | Displays the full month name       |
+| `NumeroSemana`  | WEEKNUM(dim_fechas[Date],2)                   | Returns the week number of the year|
 | `Día`           | FORMAT(Dim_Fechas[Date],"dddd")               | Displays the full day name         |
 | `DateKey`       | VALUE(FORMAT(dim_fechas[Date],"yyyymmdd"))    | Creates a numeric key for the date |
 
@@ -53,16 +53,16 @@ Repository of calculated measures created using DAX:
   
 | Measure Name                | Function(s)                                                       | Description                                                 |
 |-----------------------------|-------------------------------------------------------------------|-------------------------------------------------------------|
-| `Total de Ventas`           | `SUM(fact_ventas[Precio Venta sin IGV])`                          | Calculates the total sales amount                           |
-| `Cantidad Clientes`         | `DISTINCTCOUNT(fact_ventas[Cliente])`                             | Counts the number of unique clients                         |
-| `Cumplimiento`              | `DIVIDE([Total de Ventas],[Total Presupuesto])`     | Measures the percentage of sales achievement against the budget           |
-| `Variación Interanual`      |`VAR VentasLY = CALCULATE([Total de Ventas], DATEADD(Dim_Fechas[Date],-1,YEAR)) RETURN DIVIDE([Total de Ventas]-VentasLY, VentasLY,0) `|Year-over-year variation in sales|
-| `Venta del Trimestre del Año Anterior`|`CALCULATE([Total de Ventas], PARALLELPERIOD(Dim_Fechas[Date],-4,QUARTER)) `| Sales of the same quarter in the previous year|
-| `Crecimiento Trimestral` |`[Total de Ventas]- [Venta del Trimestre del Año Anterior] `| Quarterly growth compared to the same quarter of the previous year|
-| `Ranking de Ventas por Modelo`|`RANKX(ALL(dim_vehiculo[modelo_vehiculo]), [Total de Ventas]) `|Assigns a ranking to each vehicle model based on total sales|
-| `Venta Acumulada de Modelos`|`SUMX(TOPN([Ranking de Ventas por Modelo], ALL(dim_vehiculo[modelo_vehiculo]),[Total de Ventas]),[Total de Ventas])`|Calculates the cumulative sales of vehicle models based on their sales ranking|
-| `Total de Ventas Modelo`    |`CALCULATE([Total de Ventas], ALL(dim_vehiculo[modelo_vehiculo]))`| Calculates the total sales by vehicle model, ignoring filters applied to the modelo_vehiculo column|
-| `% Pareto`|` DIVIDE([Venta Acumulada de Modelos], [Total de Ventas Modelo]) `|Calculates the cumulative percentage of sales by model, applying the Pareto principle (80/20)|
+| `Total de Ventas`           | SUM(fact_ventas[Precio Venta sin IGV])                         | Calculates the total sales amount                           |
+| `Cantidad Clientes`         | DISTINCTCOUNT(fact_ventas[Cliente])                            | Counts the number of unique clients                         |
+| `Cumplimiento`              | DIVIDE([Total de Ventas],[Total Presupuesto])     | Measures the percentage of sales achievement against the budget           |
+| `Variación Interanual`      |VAR VentasLY = CALCULATE([Total de Ventas], DATEADD(Dim_Fechas[Date],-1,YEAR)) RETURN DIVIDE([Total de Ventas]-VentasLY, VentasLY,0) |Year-over-year variation in sales|
+| `Venta del Trimestre del Año Anterior`|CALCULATE([Total de Ventas], PARALLELPERIOD(Dim_Fechas[Date],-4,QUARTER))| Sales of the same quarter in the previous year|
+| `Crecimiento Trimestral` |[Total de Ventas]- [Venta del Trimestre del Año Anterior]| Quarterly growth compared to the same quarter of the previous year|
+| `Ranking de Ventas por Modelo`|RANKX(ALL(dim_vehiculo[modelo_vehiculo]), [Total de Ventas])|Assigns a ranking to each vehicle model based on total sales|
+| `Venta Acumulada de Modelos`|SUMX(TOPN([Ranking de Ventas por Modelo], ALL(dim_vehiculo[modelo_vehiculo]),[Total de Ventas]),[Total de Ventas])|Calculates the cumulative sales of vehicle models based on their sales ranking|
+| `Total de Ventas Modelo`    |CALCULATE([Total de Ventas], ALL(dim_vehiculo[modelo_vehiculo]))| Calculates the total sales by vehicle model, ignoring filters applied to the modelo_vehiculo column|
+| `% Pareto`|DIVIDE([Venta Acumulada de Modelos], [Total de Ventas Modelo])|Calculates the cumulative percentage of sales by model, applying the Pareto principle (80/20)|
 
 ### 📊 Data Visualization
 
