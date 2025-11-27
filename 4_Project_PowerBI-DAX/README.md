@@ -38,12 +38,12 @@ The **analisis_comercial.pbix** file contains the process of data preparation an
 | Column Name     | Function / Expression                           | Description                        |
 |-----------------|-------------------------------------------------|------------------------------------|
 | `Año`           | `Año = YEAR(dim_fechas[Date])`                  | Extracts the year from the date    |
-| `Trimestre`     | `Trimestre = " T" & QUARTER(dim_fechas[Date])`  | Returns the quarter number (1–4)   |
+| `Trimestre`     | Trimestre = "T" & QUARTER(dim_fechas[Date])  | Returns the quarter number (1–4)   |
 | `NumeroMes`     | `MONTH(dim_fechas[Date])`                       | Returns the month number (1–12)    |
-| `Mes`           | `FORMAT(dim_fechas[Date],"mmmm")`               | Displays the full month name       |
+| `Mes`           | FORMAT(dim_fechas[Date],"mmmm")              | Displays the full month name       |
 | `NumeroSemana`  | `WEEKNUM(dim_fechas[Date],2)`                   | Returns the week number of the year|
-| `Día`           | `FORMAT(Dim_Fechas[Date],"dddd")`               | Displays the full day name         |
-| `DateKey`       | `VALUE(FORMAT(dim_fechas[Date],"yyyymmdd"))`    | Creates a numeric key for the date |
+| `Día`           | FORMAT(Dim_Fechas[Date],"dddd")               | Displays the full day name         |
+| `DateKey`       | VALUE(FORMAT(dim_fechas[Date],"yyyymmdd"))    | Creates a numeric key for the date |
 
 •	Combine the period and month columns from the fact_presupuesto table using Power Query and generate the column fecha_presupuesto, with date format.
 •	Manage the relationships of the star schema data model in Model View option. See the document modelo_de_datos.pdf.
