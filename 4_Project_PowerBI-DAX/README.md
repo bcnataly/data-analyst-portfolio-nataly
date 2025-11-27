@@ -19,7 +19,7 @@ Perú CarHub, a car dealership based in Peru, requires a visual report to track 
 | `ventas. xlsx`            | Clean dataset containing  Perú CarHub  data                               |
 | `analisis_comercial.pbix` | It includes the data model, DAX analysis, and the sales tracking dashboard|
 | `dashboard.pdf`           | Exported version of the dashboard                                         |
-| `Modelo_de_datos.pdf      | Star data model diagram                                                   |
+| `Modelo_de_datos.pdf `    | Star data model diagram                                                   |
 
 ## 🧭 Project Workflow
 
@@ -36,7 +36,12 @@ The **analisis_comercial.pbix** file contains the process of data preparation an
 -	Create Calculated Columns – *dim_fechas*
 | Column Name      | Function / Expression                           | Description                        |
 |------------------|-------------------------------------------------|------------------------------------|
-| **Año**          | `Año = YEAR(dim_fechas[Date])`                  | Extracts the year from the date    |
+| `Año`            | `Año = YEAR(dim_fechas[Date])`                  | Extracts the year from the date    |
+
+
+
+### 📈 Analysis
+
 | **Trimestre**    | `Trimestre = " T" & QUARTER(dim_fechas[Date])`  | Returns the quarter number (1–4)   |
 | **NumeroMes**    | `MONTH(dim_fechas[Date])`                       | Returns the month number (1–12)    |
 | **Mes**          | `FORMAT(dim_fechas[Date],"mmmm")`               | Displays the full month name       |
