@@ -36,7 +36,7 @@ The **analisis_comercial.pbix** file contains the process of data preparation an
 -	Create Calculated Columns – *dim_fechas*
 
 | Column Name     | Function / Expression                           | Description                        |
-|-----------------|-----------.-------------------------------------|------------------------------------|
+|-----------------|-------------------------------------------------|------------------------------------|
 | `Año`           | `Año = YEAR(dim_fechas[Date])`                  | Extracts the year from the date    |
 | `Trimestre`     | `Trimestre = " T" & QUARTER(dim_fechas[Date])`  | Returns the quarter number (1–4)   |
 | `NumeroMes`     | `MONTH(dim_fechas[Date])`                       | Returns the month number (1–12)    |
