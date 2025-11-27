@@ -34,6 +34,8 @@ The **analisis_comercial.pbix** file contains the process of data preparation an
 ### 🔄 Data Transformation
 -	Create the calculated table dim_fechas, which contains a calendar with dates from 01/01/2015 to 12/31/2017, using date data type and short date format.
 -	Create Calculated Columns – *dim_fechas*
+
+
 | Column Name      | Function / Expression                           | Description                        |
 |------------------|-------------------------------------------------|------------------------------------|
 | `Año`            | `Año = YEAR(dim_fechas[Date])`                  | Extracts the year from the date    |
