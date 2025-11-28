@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-Perú CarHub, a car dealership based in Peru, requires a visual report to track its sales. This project aims to use an interactive dashboard to highlight the key drivers of sales performance, as well as the least contributing factors. The project will use Power BI to leverage data aggregations and advanced DAX functions to deliver actionable insights.
+Perú CarHub, a car dealership based in Peru, requires a visual report to track its sales. This project uses an interactive dashboard to highlight the key drivers of sales performance and the least contributing factors. The project will use Power BI to leverage data aggregations and advanced DAX functions to deliver actionable insights.
 
 ## 🛠️ Tools & Technologies
 - **Power BI Desktop**
@@ -16,10 +16,10 @@ Perú CarHub, a car dealership based in Peru, requires a visual report to track 
 
 | File Name                 | Description                                                               |
 |---------------------------|---------------------------------------------------------------------------|
-| `ventas. xlsx`            | Clean dataset containing  Perú CarHub  data                               |
-| `analisis_comercial.pbix` | It includes the data model, DAX analysis, and the sales tracking dashboard|
+| `ventas.xlsx`             | Clean dataset containing  Perú CarHub  data                               |
+| `analisis_de_ventas.pbix` | It includes the data model, DAX analysis, and the sales tracking dashboard|
 | `dashboard.pdf`           | Exported version of the dashboard                                         |
-| `Modelo_de_datos.pdf `    | Star data model diagram                                                   |
+| `modelo_de_datos.pdf `    | Star data model diagram                                                   |
 
 ## 🧭 Project Workflow
 
@@ -45,8 +45,9 @@ The **analisis_comercial.pbix** file contains the process of data preparation an
 | `Día`           | FORMAT(Dim_Fechas[Date],"dddd")               | Displays the full day name         |
 | `DateKey`       | VALUE(FORMAT(dim_fechas[Date],"yyyymmdd"))    | Creates a numeric key for the date |
 
-•	Combine the period and month columns from the fact_presupuesto table using Power Query and generate the column fecha_presupuesto, with date format.
-•	Manage the relationships of the star schema data model in Model View option. See the document modelo_de_datos.pdf.
+
+- Combine the period and month columns from the fact_presupuesto table using Power Query and generate the column fecha_presupuesto, with date format.
+-	Manage the relationships of the star schema data model in Model View option. See the document modelo_de_datos.pdf.
 
 ### 📈 Analysis
 Repository of calculated measures created using DAX:
@@ -70,7 +71,7 @@ Repository of calculated measures created using DAX:
 |-----------------------|---------------------------------------------------------------------|-----------------------------------------------------------------|
 | Card                  | Total de Ventas<br>Clientes<br>Cumplimiento<br>Variación Interanual |Displays the total sales amount<br>Displays the number of clients<br>Displays the percentage of sales achievement against the budget<br>Displays the year-over-year variation in sales|
 | Clustered column chart| Comparativa de Ventas por Trimestre|Displays current quarter sales, sales of the same quarter in the previous year, and quarterly growth|
-| Pie Chart             | Ventas por Segmento                              | Displays the proportion of sales by segment                                        |
+| Pie Chart             | Ventas por Segmento                                                 | Displays the proportion of sales by segment                     |
 | Vertical Bar Chart    | Ventas por Sede                                                     | Displays sales by location                                      |
 | Stacked column chart  |Ventas por modelo de vehículo y % de pareto                          | Displays the sales of vehicle models and Pareto %               |
 
@@ -78,7 +79,7 @@ Repository of calculated measures created using DAX:
 ## 🧠 Key Insights 
 
   - 87% of clients are individuals, while 13% are companies.
-  - The top-performing branch is Santiago de Surco, which leads in total sales volume.
-  - Toyota and Suzuki are the best-selling brands, indicating strong customer preference.
+  - The top-performing branch is Santiago de Surco, which leads in total sales volume. The branch with the lowest performance is La Molina.
+  - Toyota and Suzuki are the best-selling brands, indicating strong customer preference. Mazda is the least-selling brand.
   - Contrary to the classic Pareto principle, where 20% of products generate 80% of results, 80% of vehicle sales at Peru CarHub come from 71.42% of the available models. This reflects more balanced and diversified demand, suggesting that customers appreciate having a wide range of choices.
     
