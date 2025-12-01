@@ -14,12 +14,12 @@ Perú CarHub, a car dealership based in Peru, requires a visual report to track 
 
 ## 📁Included Files
 
-| File Name                 | Description                                                               |
-|---------------------------|---------------------------------------------------------------------------|
-| `ventas.xlsx`             | Clean dataset containing  Perú CarHub  data                               |
-| `analisis_de_ventas.pbix` | It includes the data model, DAX analysis, and the sales tracking dashboard|
-| `dashboard.pdf`           | Exported version of the dashboard                                         |
-| `modelo_de_datos.pdf `    | Star data model diagram                                                   |
+| File Name                 | Description                                                                |
+|---------------------------|----------------------------------------------------------------------------|
+| `ventas.xlsx`             | Clean dataset containing  Perú CarHub  data                                |
+| `analisis_de_ventas.pbix` | It includes the data model, DAX analysis, and the sales tracking dashboard |
+| `dashboard_and_tables.pdf`| Exported version of the dashboard and tables containing calculated measures|
+| `modelo_de_datos.pdf `    | Star data model diagram                                                    |
 
 ## 🧭 Project Workflow
 
