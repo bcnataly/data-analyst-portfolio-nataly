@@ -1,4 +1,4 @@
-# Commercial Data Analysis – Power BI - DAX
+# Sales Data Analysis – Power BI - DAX
 
 ## 📌 Project Overview
 
