@@ -88,9 +88,9 @@ Repository of calculated measures created using DAX:
 To explore this project in full:
 - Open the analisis_de_ventas.pbix Power BI file.
 - Navigate through each view:
-Report view: Displays the dashboard on one page and two tables on the other page. The tables display some of the calculated measures.
-Table view: Displays the tables that make up the star schema data model.
-Model view: Star schema data model.
+    - Report view: Displays the dashboard on one page and two tables on the other page. The tables display some of the calculated measures.
+    - Table view: Displays the tables that make up the star schema data model.
+    - Model view: Star schema data model.
 
 The contents of each file are explained in detail in the **Included Files** section.
     
