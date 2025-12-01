@@ -29,7 +29,7 @@ The **analisis_comercial.pbix** file contains the process of data preparation an
 - Load the data model from the "ventas.xlsx" file and the following tables: "fact_ventas," "fact_presupuestos," "dim_canal," "dim_cliente," "dim_sede," "dim_vehiculo," "dim_vendedor," and "foto_vehiculos".
 -	Review each table in the model to understand the information contained in each one.
 -	Check the data types.
--	Explore the star data model.
+-	Explore the star schema data model.
 
 ### 🔄 Data Transformation
 -	Create the calculated table dim_fechas, which contains a calendar with dates from 01/01/2015 to 12/31/2017, using date data type and short date format.
@@ -82,4 +82,15 @@ Repository of calculated measures created using DAX:
   - The top-performing branch is Santiago de Surco, which leads in total sales volume. The branch with the lowest performance is La Molina.
   - Toyota and Suzuki are the best-selling brands, indicating strong customer preference. Mazda is the least-selling brand.
   - Contrary to the classic Pareto principle, where 20% of products generate 80% of results, 80% of vehicle sales at Peru CarHub come from 71.42% of the available models. This reflects more balanced and diversified demand, suggesting that customers appreciate having a wide range of choices.
+
+## 🚀 Execution Guide 
+
+To explore this project in full:
+- Open the analisis_de_ventas.pbix Power BI file.
+- Navigate through each view:
+Report view: Displays the dashboard on one page and two tables on the other page. The tables display some of the calculated measures.
+Table view: Displays the tables that make up the star schema data model.
+Model view: Star schema data model.
+
+The contents of each file are explained in detail in the **Included Files** section.
     
