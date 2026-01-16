@@ -68,11 +68,11 @@ The figures are in U.S. format.
   - Stores 1 and 2 are nearly identical in rental income:
   - Store 2: 50.04%
   - Store 1: 49.96%
-  - 
+    
 - **Film Categories**
   - The three most profitable categories are Sports, Sci-Fi, and Animation, contributing 21.97% of rental income.
   - The three least profitable categories are Music, Travel, and Children, together accounting for 15.67%.
-  - 
+    
 - **Top Customers**
   - The Top 5 customers spent an average of 199.96 USD on rentals.
   - Despite their high individual spending, they contribute less than 2% of total rental income.
@@ -84,7 +84,6 @@ The figures are in U.S. format.
 
 
 👉 In summary: RetroMovie Rentals should focus on strengthening profitable ratings and genres, optimizing store operations, and maintaining a diversified catalog to secure sustainable growth.
-Would you like me to also refine this into a short recruiter-friendly paragraph (like a portfolio highlight) that showcases your analytical and storytelling skills?
 
 
 
