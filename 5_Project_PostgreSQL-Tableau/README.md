@@ -1,5 +1,5 @@
 
-#  Film Rental Data Insights– PostgreSQL and Tableau
+#   DVD Rental Analysis – PostgreSQL and Tableau 
 
 ## 📌 Project Overview
 
