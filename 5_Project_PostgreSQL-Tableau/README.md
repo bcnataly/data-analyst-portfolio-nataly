@@ -54,7 +54,7 @@ The dashboard uses visual elements to present key insights about RetroMovie Rent
 | Vertical Bar Chart  | Rental income (usd) by store <br> Rental income (USD) by rating | Displays Rental income distribution by store <br> Displays Rental income distribution by rating|
 | Tree Diagram      |Rental Income (USD) by Film Category    |  Display Rental Income distribution by Film Category  |
 | Horizontal Bar Chart| Top 5 Customers by Rental Income (USD)| Dispays the five customers with the highest payments for movie rentals|
-| Table        |Top 10 films by rental income| Lists the ten highest-rental films, including information such as Rating, Total Income (USD) and number of rents |
+| Table        |Top 10 films by rental income| Lists the ten highest-rental films, including information such as Rating, Total Income (USD) and number of rents|
 
 ## 🧠 Key Insights
 
@@ -81,9 +81,18 @@ The figures are in U.S. format.
   - The Top 10 most rented films contribute approximately 3% of total rental income.
   - Within the Top 10 highest-grossing films, ratings represented are PG, NC-17, PG-13, and G.
   - The only rating absent from the Top 10 is R.
+ 
+- **Strategic Interpretation**
+The business relies on a wide variety of films, with a clear majority of PG-13 ratings and categories such as sports, sci-fi, and animation. Store performance is balanced, enabling homogeneous strategies. VIP customers are valuable, yet they are not decisive. 
+In this context, RetroMovie Rentals should focus on strengthening profitable ratings and categories, optimizing store operations, and maintaining a diverse catalog to ensure long-term growth.
 
+## 🚀 Execution Guide
 
-👉 In summary: RetroMovie Rentals should focus on strengthening profitable ratings and genres, optimizing store operations, and maintaining a diversified catalog to secure sustainable growth.
+- Open the queries.sql file in pgAdmin or any PostgreSQL client.
+- Run the queries to explore the data.
+- Open the dashboard.twbx file in Tableau Desktop to view the interactive dashboard.
+- Alternatively, check the static version in dashboard.pdf.
+
 
 
 
