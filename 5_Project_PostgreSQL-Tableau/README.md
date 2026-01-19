@@ -27,7 +27,7 @@ For this project, PostgreSQL was used to explore and analyze the data, while Tab
 | `data_model.pdf `      | Star schema diagram illustrating table relationships|
 | `queries.sql`          | SQL script with queries for KPIs and data exploration|
 | `dashboard.twbx`       | Tableau workbook with  visualizations of key metrics|
-| `dashboard.pdf`        | Exported static version of the Tableau dashboard|
+| `dashboard.png`        | Exported static version of the Tableau dashboard|
 
 ## 🧭 Project Workflow
 
@@ -46,13 +46,13 @@ The dataset was analyzed using SQL queries to extract insights.
 - Top 5 customers by rental income
 
 ### 📊 Data Visualization
-The dashboard uses visual elements to present key insights about RetroMovie Rentals focusing on rental transactions. Data visualization is available in both the **dashboard.twbx** Tableau file and the **dashboard.pdf** file
+The dashboard uses visual elements to present key insights about RetroMovie Rentals focusing on rental transactions. Data visualization is available in both the **dashboard.twbx** Tableau file and the **dashboard.png** file
 
 | Chart Type            | Title                                                               | Description                                               |
 |-----------------------|---------------------------------------------------------------------|-----------------------------------------------------------|
 | Card                |Distinct films <br> Total Categories <br> Avg. Rental Rate (USD) |Displays the number of distinct films<br>Displays the number of film categories<br> Displays the average rental rate|
 | Vertical Bar Chart  | Rental income (usd) by store <br> Rental income (USD) by rating | Displays Rental income distribution by store <br> Displays Rental income distribution by rating|
-| Tree Diagram      |Rental Income (USD) by Film Category    |  Display Rental Income distribution by Film Category  |
+| Tree Diagram      |Rental Income (USD) by Film Category    |  Display Rental Income distribution by film category  |
 | Horizontal Bar Chart| Top 5 Customers by Rental Income (USD)| Dispays the five customers with the highest payments for movie rentals|
 | Table        |Top 10 films by rental income| Lists the ten highest-rental films, including information such as Rating, Total Income (USD) and number of rents|
 
@@ -91,7 +91,7 @@ In this context, RetroMovie Rentals should focus on strengthening profitable rat
 - Open the queries.sql file in pgAdmin or any PostgreSQL client.
 - Run the queries to explore the data.
 - Open the dashboard.twbx file in Tableau Desktop to view the interactive dashboard.
-- Alternatively, check the static version in dashboard.pdf.
+- Alternatively, check the static version in dashboard.png.
 
 
 
