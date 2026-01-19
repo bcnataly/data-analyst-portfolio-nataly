@@ -5,7 +5,7 @@ Welcome! I'm Nataly Beltrán Cuenca, a passionate and detail-oriented data analy
 ## 📁 Projects
 
 ### 1. Marketing Data Analysis – Python
-- **Description:** This project involves cleaning, exploring, transforming, and visualizing a dataset. Data manipulation techniques are applied with Pandas, and customized visualizations are generated with Matplotlib and Seaborn to uncover patterns and insights. The project's objective is to identify customers with the greatest potential for conversion.
+- **Description:** This project involves cleaning, exploring, transforming, and visualizing a dataset. Data manipulation techniques are applied with Pandas, and customized visualizations are generated with Matplotlib and Seaborn to uncover patterns and insights.The objective of the project is to identify customers with the highest potential conversion rate.
   
 - 🔗 [View Project Folder](https://github.com/bcnataly/data-analyst-portfolio-nataly/tree/main/1_Project_Python)
 
@@ -25,14 +25,20 @@ Welcome! I'm Nataly Beltrán Cuenca, a passionate and detail-oriented data analy
 
 -  🔗 [View Project Folder](https://github.com/bcnataly/data-analyst-portfolio-nataly/tree/main/4_Project_PowerBI-DAX)
 
+### 5. DVD Rental Analysis PostgreSQL and Tableau
+
+- **Description:** This project involves analyzing a dataset from a DVD rental business to understand its financial performance, with a focus on rental transactions and extracting valuable insights. The exploration and analysis stages were conducted in PostgreSQL using Data Manipulation Language (DML), as well as aggregation, grouping, ordering clauses, JOINS, string and window functions, and Common Table Expressions (CTEs). The data visualization stage was developed in Tableau, transforming the queries into an interactive dashboard that highlight key metrics.
+
+-  🔗 [View Project Folder](https://github.com/bcnataly/data-analyst-portfolio-nataly/blob/main/5_Project_PostgreSQL-Tableau/README.md)
+
   
 ## 🛠️ Skills
 
 | Category              | Tools and Technologies                        |
 |-----------------------|-----------------------------------------------|
-| Programming           | Python, SQL                                   |
+| Programming           | Python                                        |
 | Python Libraries      | Pandas, Matplotlib, Seaborn                   |
-| Databases             | MySQL, PostgreSQL                             |
+| Databases             | SQL (MySQL, PostgreSQL)                       |
 | Spreadsheet Analytics | Excel                                         |
 | Visualization         | Power BI, Tableau                             | 
 | Data Modeling & DAX   | DAX (Power BI)                                |
