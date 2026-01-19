@@ -19,13 +19,13 @@ Welcome! I'm Nataly Beltrán Cuenca, a passionate and detail-oriented data analy
 
 -  🔗 [View Project Folder](https://github.com/bcnataly/data-analyst-portfolio-nataly/tree/main/3_Project_Excel)
 
-### 4. Sales Data Analysis — Power BI-DAX
+### 4. Sales Data Analysis – Power BI-DAX
 
 - **Description:** This project uses an interactive dashboard to highlight the key drivers of sales performance and the least contributing factors. The stages of data exploration, transformation, analysis, and visualization are applied. The entire project is developed using Microsoft Power BI Desktop, covering topics such as managing relationships, star schema data model structure, combining columns, generating tables and calculated columns, creating measures, filtering data, using time intelligence functions, and designing the dashboard.
 
 -  🔗 [View Project Folder](https://github.com/bcnataly/data-analyst-portfolio-nataly/tree/main/4_Project_PowerBI-DAX)
 
-### 5. DVD Rental Analysis PostgreSQL and Tableau
+### 5. DVD Rental Analysis – PostgreSQL and Tableau
 
 - **Description:** This project involves analyzing a dataset from a DVD rental business to understand its financial performance, with a focus on rental transactions and extracting valuable insights. The exploration and analysis stages were conducted in PostgreSQL using Data Manipulation Language (DML), as well as aggregation, grouping, ordering clauses, JOINS, string and window functions, and Common Table Expressions (CTEs). The data visualization stage was developed in Tableau, transforming the queries into an interactive dashboard that highlight key metrics.
 
