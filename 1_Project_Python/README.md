@@ -4,7 +4,7 @@
 
 A banking institution hired a marketing firm to contact potential customers and gauge their interest in purchasing certificates of deposit (CDs), which are a type of fixed-term investment. 
 The objective of this exploratory data analysis is to answer the following question: 
-What is the profile of customers with the greatest potential for conversion? 
+What is the profile of customers with the greatest potential for conversion rate? 
 
 ## 🛠️ Tools & Technologies
 
